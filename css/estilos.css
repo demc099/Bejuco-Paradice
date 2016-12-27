@@ -3,23 +3,36 @@
     src: url(../fonts/PALSCRI.TTF);
 }
 
+@font-face{
+	font-family: "BKANT";
+	src: url(../font/BKANT.TTF);
+
+}
 body{
+	background-color: #03cce2;
+	background-image: linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 50%),
+	linear-gradient(90deg, rgba(255,255,255,.13) 50%, transparent 50%),
+	linear-gradient(90deg, transparent 50%, rgba(255,255,255,.17) 50%),
+	linear-gradient(90deg, transparent 50%, rgba(255,255,255,.19) 50%);
+	background-size: 13px, 29px, 37px, 53px;
 	display: inline-block;
 	position: relative;
+	background-color: ; 
 
 }
 
 
 
 .divs1{
-	background-color: #99ffb3;
+	/*background-color: #99ffb3 transparent:0.5;*/
+	background-color: rgba(0,0,0,0.3);
 	align-items: center;
 	text-align: center;
 	display: inline-block;
 
 }
 .divs2{
- 	background-color: 	#66ff8c;
+ 	background-color: rgba(0,0,0,0.3);
  	align-items: center;
  	text-align: center;
  	display: inline-block;
@@ -27,19 +40,32 @@ body{
 
 
 }
-img{
+.img{
 
 	align-items: center;
 	text-align: center;
-	border-radius-right: 50%;
-
+	border-radius: 100px 10px 100px 10px;
+	-moz-border-radius: 100px 10px 100px 10px;
+	-webkit-border-radius: 100px 10px 100px 10px;
+	border: 6px solid #000000;
 
 }
 .img1{
 	width: 500px;
 	height: 700px;
-	border-radius: 10%;
+	border-radius: 0px 100px 0px 100px;
+-moz-border-radius: 0px 100px 0px 100px;
+-webkit-border-radius: 0px 100px 0px 100px;
+border: 6px solid #000000;
+	
 
+
+}
+
+.logo1{
+	align-items: center;
+	width: 100%;
+	height: 200px;
 
 }
 .menus{
@@ -52,9 +78,8 @@ img{
 
 }
 
-.nav{
-	position: relative;
-	left: 290px;
+.navbar-nav{
+	
 }
 
 .heads{
@@ -74,15 +99,15 @@ footer{
 
 
 .texto{
-
-	font-family: Comic Sans MS;
+	background-color: rgba(0,0,0,0.3);
+	font-family: BKANT;
 	text-decoration: initial;
 	text-align: justify;
-	color: black;
+	color: #cdf9fe;
 	
 	background-opacity:0.5;
-	border-radius: 10%;
-	font-size: 16px;
+	
+	font-size: 18px;
 
 }
 .lix{
